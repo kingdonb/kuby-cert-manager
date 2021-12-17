@@ -8,7 +8,7 @@ module Kuby
 
       def serialize
         {}.tap do |result|
-          result[:apiVersion] = "cert-manager.io/v1alpha2"
+          result[:apiVersion] = "cert-manager.io/v1"
           result[:kind] = "ClusterIssuer"
           result[:metadata] = metadata.serialize
           result[:spec] = spec.serialize

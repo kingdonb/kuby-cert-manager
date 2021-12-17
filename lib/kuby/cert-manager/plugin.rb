@@ -10,7 +10,7 @@ module Kuby
       end
 
       NAMESPACE = 'cert-manager'.freeze
-      CERT_MANAGER_VERSION = '0.13.1'.freeze
+      CERT_MANAGER_VERSION = '1.6.1'.freeze
       CERT_MANAGER_RESOURCE = "https://github.com/jetstack/cert-manager/releases/download/v#{CERT_MANAGER_VERSION}/cert-manager.yaml".freeze
 
       def configure(&block)
