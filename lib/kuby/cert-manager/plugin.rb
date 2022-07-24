@@ -30,7 +30,7 @@ module Kuby
 
         ingress.metadata do
           annotations do
-            add :'cert-manager.io/cluster-issuer', context.send(:issuer_name)
+            # add :'cert-manager.io/cluster-issuer', context.send(:issuer_name)
           end
         end
       end
